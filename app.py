@@ -40,7 +40,6 @@ st.write("""
 st.sidebar.header("Enter Details:")
 
 # API key input
-api_key = st.sidebar.text_input("API Key", type="password")
 
 # Fasting, pre-meal, and post-meal sugar levels
 fasting_sugar = st.sidebar.number_input("Fasting Sugar Level (mg/dL)", min_value=0, max_value=500, value=100)
